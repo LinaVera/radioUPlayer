@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mcakir.radio.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+  <!--  <item
+        android:id="@+id/navigation_programacion"
+        android:icon="@drawable/ic_programacion"
+        android:title="@string/programacion" />
+
+    <item
+        android:id="@+id/navigation_equipo"
+        android:icon="@drawable/ic_equipo"
+        android:title="@string/equipo" />
+
+    <item
+        android:id="@+id/navigation_programas"
+        android:icon="@drawable/ic_programas"
+        android:title="@string/programas" />-->
+
+</menu>
