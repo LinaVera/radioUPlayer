@@ -1,18 +1,23 @@
 package com.mcakir.radio;
 
+import android.app.Fragment;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mcakir.radio.databinding.ActivityMainBinding;
+import com.mcakir.radio.fragments.HojaProgramacionFragment;
 import com.mcakir.radio.player.PlaybackStatus;
 import com.mcakir.radio.player.RadioManager;
+import com.mcakir.radio.views.MyAdapter;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -36,16 +41,49 @@ public class MainActivity extends AppCompatActivity {
     View subPlayer;
     RadioManager radioManager;
     String streamURL;
-/*//BottomNavigationView
-    private ActivityMainBinding binding;*/
+
+
+    //Variables de tablayout
+    TabLayout tabs;
+    ViewPager contenedor;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+/*      // TABLAYOUT
+        tabs = findViewById(R.id.tabs);
+        contenedor = findViewById(R.id.contenedor);
+
+        adapter = new MyAdapter(this, getSupportFragmentManager(), 2);
+        contenedor.setAdapter(adapter);
+        contenedor.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabs));
+        tabs.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+                                          @Override
+                                          public void onTabSelected(TabLayout.Tab tab) {
+                                              if(tab.getPosition() == 0){
+                                                  tab.setCustomView(R.layout.fragment_hoja_programacion);
+                                              }else if(tab.getPosition() == 1){
+                                                  tab.setCustomView(R.layout.fragment_equipo);
+                                              }if(tab.getPosition() == 2){
+                                                  tab.setCustomView(R.layout.fragment_programas);
+                                              }
+                                              contenedor.setCurrentItem(tab.getPosition());
+
+                                          }
+                                          @Override
+                                          public void onTabUnselected(TabLayout.Tab tab) {
+
+                                          }
+
+                                          @Override
+                                          public void onTabReselected(TabLayout.Tab tab) {
+
+                                          }
+                                      });*/
 
         //RADIO
-        setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);
         radioManager = RadioManager.with(this);

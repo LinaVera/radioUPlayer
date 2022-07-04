@@ -7,7 +7,7 @@
     <RelativeLayout
         android:id="@+id/sub_player"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:visibility="visible"
         android:background="@drawable/borde">
