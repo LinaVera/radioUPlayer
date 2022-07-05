@@ -1,17 +1,12 @@
 package com.mcakir.radio;
 
-import android.app.Fragment;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -22,7 +17,6 @@ import com.mcakir.radio.fragments.HojaProgramacionFragment;
 import com.mcakir.radio.fragments.ProgramasFragment;
 import com.mcakir.radio.player.PlaybackStatus;
 import com.mcakir.radio.player.RadioManager;
-import com.mcakir.radio.views.MyAdapter;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -40,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton trigger;
     @BindView(R.id.listview)
     ListView listView;
-    @BindView(R.id.name)
+    @BindView(R.id.name_radio)
     TextView textView;
     @BindView(R.id.sub_player)
     View subPlayer;
@@ -50,17 +44,26 @@ public class MainActivity extends AppCompatActivity {
     //Variables de tablayout
     TabLayout tabs;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //RADIO
+        ButterKnife.bind(this);
+        setSupportActionBar(toolbar);
+        radioManager = RadioManager.with(this);
+        streamURL = "https://apps.ufps.edu.co/emisoraufps";
+        subPlayer.setVisibility(View.VISIBLE);
+
+        //Iniciar con la programación
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.contain, new HojaProgramacionFragment());
         transaction.addToBackStack(null);
         transaction.commit();
+
       // TABLAYOUT
-        tabs = findViewById(R.id.tabs);
+         tabs = findViewById(R.id.tabs);
 //        contenedor = findViewById(R.id.contain);
 //
 //        adapter = new MyAdapter(this, getSupportFragmentManager(), 2);
@@ -74,41 +77,32 @@ public class MainActivity extends AppCompatActivity {
                                                   transaction.replace(R.id.contain, new HojaProgramacionFragment());
                                                   transaction.addToBackStack(null);
                                                   transaction.commit();
-
+                                                  toolbar.setTitle("Programación");
                                               }else if(tab.getPosition() == 1){
                                                   FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                                                   transaction.replace(R.id.contain, new EquipoFragment());
                                                   transaction.addToBackStack(null);
                                                   transaction.commit();
-
+                                                  toolbar.setTitle("Nuestro equipo");
                                               }if(tab.getPosition() == 2){
                                                   FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                                                   transaction.replace(R.id.contain, new ProgramasFragment());
                                                   transaction.addToBackStack(null);
                                                   transaction.commit();
+                                                  toolbar.setTitle("Nuestros programas");
 
                                               }
                                               //contenedor.setCurrentItem(tab.getPosition());
-
                                           }
                                           @Override
                                           public void onTabUnselected(TabLayout.Tab tab) {
 
                                           }
-
                                           @Override
                                           public void onTabReselected(TabLayout.Tab tab) {
 
                                           }
                                       });
-
-        //RADIO
-        ButterKnife.bind(this);
-        setSupportActionBar(toolbar);
-        radioManager = RadioManager.with(this);
-        streamURL = "https://apps.ufps.edu.co/emisoraufps";
-        subPlayer.setVisibility(View.VISIBLE);
-        //RADIO
 
       /*  binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());*/
@@ -165,6 +159,5 @@ public class MainActivity extends AppCompatActivity {
         if(TextUtils.isEmpty(streamURL)) return;
         radioManager.playOrPause(streamURL);
     }
-    //    BOTONES DE RADIO
 
 }

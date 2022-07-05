@@ -11,4 +11,8 @@
     <string name="programacion">Programación</string>
     <string name="equipo">Equipo</string>
     <string name="programas">Programas</string>
+    <string name="nom_team_2_prueba">GRECIA KARINA CORZO MENDOZA</string>
+    <string name="cargo_team_2_prueba">JEFE DE PRODUCCIÓN Y PROGRAMACIÓN</string>
+    <string name="nom_team_1_prueba">FELIX JOAQUÍN LOZANO CARDENAS</string>
+    <string name="cargo_team_1_prueba">COORDINADOR - SCRUM</string>
 </resources>
