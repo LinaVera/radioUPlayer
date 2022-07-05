@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "212514858621",
+    "firebase_url": "https://movil2022-9d709-default-rtdb.firebaseio.com",
+    "project_id": "movil2022-9d709",
+    "storage_bucket": "movil2022-9d709.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212514858621:android:0c6ee8b974387ea97ab314",
+        "android_client_info": {
+          "package_name": "com.mcakir.radio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212514858621-8rgkh978n546slrp0uo0rko0mlgtbbbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrqLdzBXFuh_4vw1ba0mRlJ8o3qqKor8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212514858621-8rgkh978n546slrp0uo0rko0mlgtbbbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

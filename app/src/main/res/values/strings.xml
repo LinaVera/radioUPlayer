@@ -15,4 +15,12 @@
     <string name="cargo_team_2_prueba">JEFE DE PRODUCCIÓN Y PROGRAMACIÓN</string>
     <string name="nom_team_1_prueba">FELIX JOAQUÍN LOZANO CARDENAS</string>
     <string name="cargo_team_1_prueba">COORDINADOR - SCRUM</string>
+    <string name="dia_1">Lunes</string>
+    <string name="dia_2">Martes</string>
+    <string name="dia_3">Miercoles</string>
+    <string name="dia_4">Jueves</string>
+    <string name="dia_5">Viernes</string>
+    <string name="dia_6">Sádado</string>
+    <string name="dia_7">Domingo</string>
+
 </resources>
