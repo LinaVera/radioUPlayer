@@ -1,7 +1,9 @@
 package com.mcakir.radio.fragments;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,37 +11,68 @@ import android.view.ViewGroup;
 import com.mcakir.radio.R;
 
 public class HojaProgramacionFragment extends Fragment {
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public HojaProgramacionFragment() {
-        // Required empty public constructor
-    }
-
-    // TODO: Rename and change types and number of parameters
-    public static HojaProgramacionFragment newInstance(String param1, String param2) {
-        HojaProgramacionFragment fragment = new HojaProgramacionFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
+    View vista;
+    TabLayout tabs_dias;
+//    dias fragment
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+        tabs_dias = vista.findViewById(R.id.tabs_dias);
+        tabs_dias.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                switch (tab.getPosition()){
+                    case 0:
+                        //necesito saber crear el horario con los cards y despues remplazar el Fragment
+                        FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                        transaction.replace(R.id.dias, new HojaProgramacionFragment());
+                        transaction.addToBackStack(null);
+                        transaction.commit();
+                        break;
+                        case 1:
+                        //necesito saber crear el horario con los cards y despues remplazar el Fragment
+
+                        break;
+                        case 2:
+                            //necesito saber crear el horario con los cards y despues remplazar el Fragment
+
+                            break;
+                        case 3:
+                            //necesito saber crear el horario con los cards y despues remplazar el Fragment
+
+                            break;
+                        case 4:
+                            //necesito saber crear el horario con los cards y despues remplazar el Fragment
+
+                            break;
+                        case 5:
+                            //necesito saber crear el horario con los cards y despues remplazar el Fragment
+
+                            break;
+                        case 6:
+                            //necesito saber crear el horario con los cards y despues remplazar el Fragment
+
+                            break;
+                        case 7:
+                            //necesito saber crear el horario con los cards y despues remplazar el Fragment
+
+                            break;
+                }
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+        return;
+
     }
 
     @Override

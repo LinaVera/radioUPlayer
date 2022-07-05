@@ -5,9 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.HojaProgramacionFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <android.support.design.widget.TabLayout
-        android:id="@+id/tabs"
+        android:id="@+id/tabs_dias"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabMode="scrollable"
@@ -59,5 +63,8 @@
 
     </android.support.design.widget.TabLayout>
 
+    <include layout="@layout/fragment_dias"/>
+
+    </LinearLayout>
 
 </FrameLayout>

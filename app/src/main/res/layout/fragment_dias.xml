@@ -1,14 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dias"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DiasFragment">
+    tools:context=".fragments.DiasFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!--    Inicio de la programación-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <!--Primer programa-->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_margin"
+        android:background="@drawable/card_team_border"
+        android:layout_marginTop="@dimen/fab_margin">
 
+        <ImageView
+            android:id="@+id/image_prog_pro1"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:src="@drawable/homeimagen"
+            android:padding="@dimen/space_margin"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/space_margin"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:isScrollContainer="true"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/nombre_programa_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/nom_prog_prueba_1"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/horario_programa_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/horario_prog_prueba_1"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/descripcion_programa_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/descrip_programa_1"
+                android:textSize="12dp"
+                android:padding="@dimen/space_margin"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--        Fin primer programa-->
+    </LinearLayout>
 </FrameLayout>

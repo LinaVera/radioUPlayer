@@ -22,5 +22,8 @@
     <string name="dia_5">Viernes</string>
     <string name="dia_6">Sádado</string>
     <string name="dia_7">Domingo</string>
+    <string name="nom_prog_prueba_1">SIENTE LA U</string>
+    <string name="horario_prog_prueba_1">Lunes a viernes de 8:00 a 8:30 a.m</string>
+    <string name="descrip_programa_1">Magazín matutino con lo mejor de la UFPS Cúcuta, información local, regional, nacional e internacional.</string>
 
 </resources>
