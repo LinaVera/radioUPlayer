@@ -4,4 +4,11 @@
     <color name="colorPrimaryDark">#ba000d</color>
     <color name="colorAccent">#bcaaa4</color>
     <color name="colorWhite">#ffffff</color>
+
+
+    <color name="tittle_team">#141414</color>
+    <color name="subtittle_team">#47525E</color>
+    <color name="background_card">#94969FAA</color>
+    <color name="main_color">#BC0017</color>
+    <color name="background_card_red">#B0BC0017</color>
 </resources>

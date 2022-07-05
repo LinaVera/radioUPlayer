@@ -1,4 +1,5 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="space_margin">6dp</dimen>
+    <dimen name="dimTabIndicator">4dp</dimen>
 </resources>
