@@ -9,7 +9,7 @@ Aplicación desarrollada con fines educativos para la materia de Desarrollo de A
 - Vistas de la programación
 ![image](https://github.com/LinaVera/radioUPlayer/tree/main/screenshot/im3.jpeg)
 ![image](https://github.com/LinaVera/radioUPlayer/tree/main/screenshot/im2.jpeg)
-![image]https://github.com/LinaVera/radioUPlayer/tree/main/screenshot/im1.jpeg
+![image](https://github.com/LinaVera/radioUPlayer/blob/main/screenshot/im1.jpeg)
 - Vista del equipo
 ![image](https://github.com/LinaVera/radioUPlayer/tree/main/screenshot/equipo_team.jpeg)
 - Vista de los programas
