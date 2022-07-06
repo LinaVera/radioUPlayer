@@ -23,5 +23,5 @@ Aplicación desarrollada con fines educativos para la materia de Desarrollo de A
 
 
 # APK
-![APK](https://github.com/LinaVera/radioUPlayer/tree/main/apk/radioUFPS.apk)
+![APK](https://github.com/LinaVera/radioUPlayer/blob/main/apk/radioUFPS.apk)
 
