@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.LunesFragment">
+
+<!--    TODO: ESTATICO-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="60dp">
+        <!--Primer programa-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_margin"
+            android:background="@drawable/card_team_border"
+            android:layout_marginTop="@dimen/fab_margin">
+
+            <ImageView
+                android:id="@+id/image_prog_pro1"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/sanemos_juntos"
+                android:padding="@dimen/space_margin"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/space_margin"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:isScrollContainer="true"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/nombre_programa_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="SANEMOS JUNTOS"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/horario_programa_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Lunes de 8:30 a 9:30 a.m"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/descripcion_programa_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Es un espacio radial en el que especialistas de diversas disciplinas hacen recomendaciones y resuelven inquietudes."
+                    android:textSize="12dp"
+                    android:padding="@dimen/space_margin"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:padding="@dimen/space_margin"
+                    android:text="@string/descrip_programa_1"
+                    android:textSize="12dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+<!--        TODO: Incio de los card sin IDs-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_margin"
+            android:background="@drawable/card_team_border"
+            android:layout_marginTop="@dimen/fab_margin">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/cuadriga"
+                android:padding="@dimen/space_margin"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/space_margin"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:isScrollContainer="true"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="CUADRIGA"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Lunes de 11:00 a 12:30 a.m"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="En este programa se ofrecen puntos de vista sobre la actualidad mundial. Va desde la política pasando por la cultura sin olvidar la economía, la ciencia o el deporte."
+                    android:textSize="12dp"
+                    android:padding="@dimen/space_margin"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_margin"
+            android:background="@drawable/card_team_border"
+            android:layout_marginTop="@dimen/fab_margin">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/bicentenario"
+                android:padding="@dimen/space_margin"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/space_margin"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:isScrollContainer="true"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="BICENTENARIO AL AIRE"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Lunes de 3:00 a 3:30 p.m"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Lo que hoy es Colombia hace 200 años’ es un micro programa con producción de CyC Radio y que cuenta con el apoyo del Instituto Caro y Cuervo, también del Ministerio de Cultura."
+                    android:textSize="12dp"
+                    android:padding="@dimen/space_margin"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_margin"
+            android:background="@drawable/card_team_border"
+            android:layout_marginTop="@dimen/fab_margin">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/franja_long_play"
+                android:padding="@dimen/space_margin"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/space_margin"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:isScrollContainer="true"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="FRANJA LONG PLAY"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Lunes a Marte de 8:00 a 9:00 p.m"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Espacio musical con los mejores exponentes del rock and roll, blues, soul, blues, R&amp;b , Rock, hardrock, heavy metal, metal sinfónico y demás."
+                    android:textSize="12dp"
+                    android:padding="@dimen/space_margin"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_margin"
+            android:background="@drawable/card_team_border"
+            android:layout_marginTop="@dimen/fab_margin">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/homeimagen"
+                android:padding="@dimen/space_margin"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/space_margin"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:isScrollContainer="true"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/nom_prog_prueba_1"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/horario_prog_prueba_1"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/descrip_programa_1"
+                    android:textSize="12dp"
+                    android:padding="@dimen/space_margin"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_margin"
+            android:background="@drawable/card_team_border"
+            android:layout_marginTop="@dimen/fab_margin">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/rruc"
+                android:padding="@dimen/space_margin"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/space_margin"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:isScrollContainer="true"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="CONEXIÓN RRUC"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Lunes de 11:00 a 11:30 p.m"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Informativo de la Red de Radio Universitaria de Colombia para estar al día con todos los hechos y acontecimientos de nuestra red."
+                    android:textSize="12dp"
+                    android:padding="@dimen/space_margin"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--        TODO: Fin de los card sin IDs-->
+
+    </LinearLayout>
+
+
+</FrameLayout>

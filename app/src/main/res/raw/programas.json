@@ -1,0 +1,75 @@
+{
+  "Programas": [
+    null,
+    {
+      "descrip": "Magazín matutino con lo mejor de la UFPS Cúcuta, información local, regional, nacional e internacional, generando espacios para la salud, medio ambiente, investigación, academia, cultura y deportes.",
+      "dia": "Lunes a Viernes",
+      "horario": "8:00 a 8:30 a.m",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Programas%2F76f9203130022e3d80af71348c8d18eb.jpg?alt=media&token=795002da-80fa-488a-a85e-ad5c1307a75e",
+      "nombre_programa": "Magazín Siente la U"
+    },
+    {
+      "descrip": "Un espacio musical con los mejores exponentes del Jazz y sus subgéneros.",
+      "dia": "Martes",
+      "horario": "9:00 a 10:00 pm",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Programas%2F090ccbff430239d78380813712d49260.jpg?alt=media&token=9fc48ca7-9d5d-4dd4-ac33-a9d6a19baf52",
+      "nombre_programa": "Franja Saxo Jazz"
+    },
+    {
+      "descrip": "Espacio musical con los mejores exponentes del rock and roll, blues, soul, blues, R&amp;b , Rock, hardrock, heavy metal, metal sinfónico y demás.",
+      "dia": "Lunes a Martes",
+      "horario": "8:00 a 9:00 pm",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Programas%2F88bcb30673b6a3fc4819bb7c9c5f2e42.jpg?alt=media&token=ad366fc9-0983-43b5-a87b-b9af2b4ec1d9",
+      "nombre_programa": "Franja Long Play"
+    },
+    {
+      "descrip": "Magazín de la jornada de la tarde, cargada de la mejor agenda cultural y social, con actualidad musical y temas de interés general.",
+      "dia": "Jueves y Viernes",
+      "horario": "5:00 a 6:00 pm",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Programas%2Fe4f7a1d8f032dc2e36d53705d0ba43ec.jpg?alt=media&token=beefbe4a-ae28-4ebd-b656-68fc2839f6b6",
+      "nombre_programa": "Magazín la 95"
+    },
+    {
+      "descrip": "Programa que trasmite la mejor información con un recorrido por la diversidad sexual y social del Siglo XXI.  Espacio conducido por el trabajador social, Alexander Rincón graduado UFPS.",
+      "dia": "Martes",
+      "horario": "7:00 a 8:00 p.m",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Programas%2F870eb677e9dd1dc051c361fff9695b57.jpg?alt=media&token=353c2319-9d99-437c-9796-c59f75f567e5",
+      "nombre_programa": "Clan Rosa"
+    },
+    {
+      "descrip": "Programa de dispersión de la cultura, con todo lo mejor de la literatura contemporánea y universal, acompañada de la buena música anglo, popular y americana; también para mostrar las voces literarias contemporáneas y universales.",
+      "dia ": "Jueves y Domingos",
+      "horario": "8:00 a 9:00 p.m",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Programas%2F1fb8de701c9124c720a5476ecd64fd05.jpg?alt=media&token=1fa5bb73-e3d7-47b0-b52b-7558287b2e67",
+      "nombre_programa": "Diáspora"
+    },
+    {
+      "descrip": "Programa radial que transmite toda la información de las diferentes disciplinas deportivas, a nivel local, regional, nacional e internacional, con los hechos más importantes del mundo del deporte.",
+      "dia": "Viernes",
+      "horario": "2:00 a 3:00 p.m",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Programas%2F220339cb810258d3bba809c7827cc486.jpg?alt=media&token=ddcc35f4-7499-4d29-a379-d988ef8cfd9a",
+      "nombre_programa": "Minuto Final"
+    },
+    {
+      "descrip": "Programa radial del Consultorio Jurídico de UFPS Cúcuta, espacio que brinda asesoramiento jurídico con sentido social, con debates de tema en específico, para aclarar dudas legales de los oyentes.",
+      "dia": "Martes",
+      "horario": "3:00 a 4:00 p.m",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Programas%2Fb02a85225197db4c0bec188fb9cb86da.jpg?alt=media&token=53c64e6a-d9d8-49b2-89aa-7827c38099a8",
+      "nombre_programa": "Jurisconsulto"
+    },
+    {
+      "descrip": "Espacio musical que rescata y resalta el género del bolero clásico para los padres de familia, abuelos, bisabuelos y demás. Por medio de cantautores de todas sus ramas, con arte, cautivando a las nuevas generaciones.",
+      "dia": "Sábados y Domingos",
+      "horario": "8:00 a 10:00 a.m",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Programas%2F70c473228994fee0e6d73a8d50456437.jpg?alt=media&token=566929a9-94ed-438a-a62d-aaea5f386961",
+      "nombre_programa": "En Compañía del Recuerdo"
+    },
+    {
+      "descrip": "Programa radial con efemérides, información local y sonidos clásicos del Rock, Rock en español y el Funk, Disco, Retro 80 y demás.",
+      "dia": "Sábados y Domingos",
+      "horario": "4:00 a 6:00 p.m",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Programas%2F50f37bf6a1600a760ff91a21483a4b05.jpg?alt=media&token=fbb4a147-2676-4347-98ff-bad78c4df3f3",
+      "nombre_programa": "Onda Retro"
+    }
+  ]
+}

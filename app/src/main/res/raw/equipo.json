@@ -1,0 +1,35 @@
+{
+  "Equipo": [
+    null,
+    {
+      "cargo": "COORDINADOR - CECOM",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Equipo%2Ffelix.jpg?alt=media&token=d3556396-ecf0-4cbc-85dc-f22db1c590fb",
+      "nombre": "FÉLIX JOAQUÍN LOZANO CARDENAS"
+    },
+    {
+      "cargo": "JEFE DE PRODUCCIÓN Y PROGRAMACIÓN",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Equipo%2Fgrecia.jpg?alt=media&token=6f842def-50d9-4631-bde1-a8655803c876",
+      "nombre": "GRECIA KARINA CORZO MENDOZA"
+    },
+    {
+      "cargo": "PRODUCTORA RADIAL",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Equipo%2Fjessica.jpg?alt=media&token=7e17b4f3-3ae0-48fa-a255-d74103ea932b",
+      "nombre": "JESSICA BARRERA PINTO"
+    },
+    {
+      "cargo": "DJ Y CONTROL MASTER",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Equipo%2Fjesus.jpg?alt=media&token=4c1d8110-4898-47bc-abd8-d2e848f988ef",
+      "nombre": "JESÚS ENRIQUE HERNÁNDEZ CONTRERAS"
+    },
+    {
+      "cargo": "CONTROL MASTER",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Equipo%2Fmiguel.jpg?alt=media&token=203d4d36-427b-4abf-b59e-0e1eefef3560",
+      "nombre": "MIGUEL ÁNGEL ESTÉVEZ RESTREPO"
+    },
+    {
+      "cargo": "SECRETARIA",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/movil2022-9d709.appspot.com/o/Equipo%2Fpatricia.jpg?alt=media&token=a2393887-26f8-4f85-8690-ebe59fbabb50",
+      "nombre": "CARMEN PATRICIA ÁLVAREZ CÁCERES"
+    }
+  ]
+}

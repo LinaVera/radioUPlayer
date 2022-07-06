@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="@dimen/space_margin"
+    android:layout_marginBottom="50dp"
     android:scrollbarAlwaysDrawVerticalTrack="true"
     tools:context=".fragments.ProgramasFragment">
 
@@ -23,25 +24,116 @@
             android:orientation="horizontal"
             android:layout_gravity="center"
             android:gravity="center"
-            android:layout_marginRight="@dimen/space_margin"
-            android:layout_marginLeft="@dimen/space_margin">
+            android:layout_margin="@dimen/space_margin">
 
             <ImageView
                 android:id="@+id/image_prog1"
                 android:layout_width="@dimen/w_image_programs"
                 android:layout_height="@dimen/h_image_programs"
-                android:src="@drawable/homeimagen"
+                android:src="@drawable/bicentenario"
                 android:background="@drawable/card_programs_background"
                 android:padding="@dimen/space_margin"/>
             <ImageView
                 android:id="@+id/image_prog2"
                 android:layout_width="@dimen/w_image_programs"
                 android:layout_height="@dimen/h_image_programs"
-                android:src="@drawable/homeimagen"
+                android:src="@drawable/franja_saxo_jazz"
                 android:background="@drawable/card_programs_background"
                 android:padding="@dimen/space_margin"
                 android:layout_marginLeft="@dimen/space_margin"/>
         </LinearLayout>
+
+<!--  TODO: ESTATICO Inicio de los cards sin IDs-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="@dimen/space_margin">
+
+            <ImageView
+                android:layout_width="@dimen/w_image_programs"
+                android:layout_height="@dimen/h_image_programs"
+                android:src="@drawable/franja_long_play"
+                android:background="@drawable/card_programs_background"
+                android:padding="@dimen/space_margin"/>
+            <ImageView
+                android:layout_width="@dimen/w_image_programs"
+                android:layout_height="@dimen/h_image_programs"
+                android:src="@drawable/clan_rosa"
+                android:background="@drawable/card_programs_background"
+                android:padding="@dimen/space_margin"
+                android:layout_marginLeft="@dimen/space_margin"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="@dimen/space_margin">
+
+            <ImageView
+                android:layout_width="@dimen/w_image_programs"
+                android:layout_height="@dimen/h_image_programs"
+                android:src="@drawable/casa_5ta"
+                android:background="@drawable/card_programs_background"
+                android:padding="@dimen/space_margin"/>
+            <ImageView
+                android:layout_width="@dimen/w_image_programs"
+                android:layout_height="@dimen/h_image_programs"
+                android:src="@drawable/minuto_final"
+                android:background="@drawable/card_programs_background"
+                android:padding="@dimen/space_margin"
+                android:layout_marginLeft="@dimen/space_margin"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="@dimen/space_margin">
+
+            <ImageView
+                android:layout_width="@dimen/w_image_programs"
+                android:layout_height="@dimen/h_image_programs"
+                android:src="@drawable/ciencia_somos"
+                android:background="@drawable/card_programs_background"
+                android:padding="@dimen/space_margin"/>
+            <ImageView
+                android:layout_width="@dimen/w_image_programs"
+                android:layout_height="@dimen/h_image_programs"
+                android:src="@drawable/cuadriga"
+                android:background="@drawable/card_programs_background"
+                android:padding="@dimen/space_margin"
+                android:layout_marginLeft="@dimen/space_margin"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="@dimen/space_margin">
+
+            <ImageView
+                android:layout_width="@dimen/w_image_programs"
+                android:layout_height="@dimen/h_image_programs"
+                android:src="@drawable/sanemos_juntos"
+                android:background="@drawable/card_programs_background"
+                android:padding="@dimen/space_margin"/>
+            <ImageView
+                android:layout_width="@dimen/w_image_programs"
+                android:layout_height="@dimen/h_image_programs"
+                android:src="@drawable/rruc"
+                android:background="@drawable/card_programs_background"
+                android:padding="@dimen/space_margin"
+                android:layout_marginLeft="@dimen/space_margin"/>
+        </LinearLayout>
+
+<!--   Fin de los cards sin IDs-->
 
     </LinearLayout>
 

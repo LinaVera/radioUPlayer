@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/dias"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.DiasFragment">
 
-    <!--    Inicio de la programación-->
+    <!--    Inicio de la programación por días-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -72,6 +71,6 @@
         </LinearLayout>
 
     </LinearLayout>
-    <!--        Fin primer programa-->
+
     </LinearLayout>
 </FrameLayout>

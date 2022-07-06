@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
     //Variables de tablayout
     TabLayout tabs;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,13 +64,11 @@ public class MainActivity extends AppCompatActivity {
         transaction.addToBackStack(null);
         transaction.commit();
 
+        //Firebase
+
+
       // TABLAYOUT
          tabs = findViewById(R.id.tabs);
-//        contenedor = findViewById(R.id.contain);
-//
-//        adapter = new MyAdapter(this, getSupportFragmentManager(), 2);
-//        contenedor.setAdapter(adapter);
-//        contenedor.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabs));
         tabs.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
                                           @Override
                                           public void onTabSelected(TabLayout.Tab tab) {
@@ -104,11 +104,8 @@ public class MainActivity extends AppCompatActivity {
                                           }
                                       });
 
-      /*  binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());*/
-
-
     }
+
 //    BOTONES DE RADIO
     @Override
     public void onStart() {
